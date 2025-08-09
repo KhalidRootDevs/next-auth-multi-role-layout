@@ -1,0 +1,11 @@
+{
+  "extends": "next/core-web-vitals",
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": ["warn", { "args": "none" }],
+    "@next/next/no-img-element": "off",
+    "import/no-unresolved": "error",
+    "import/named": "off",
+    "no-console": ["warn", { "allow": ["warn", "error", "info", "debug"] }]
+  }
+}
